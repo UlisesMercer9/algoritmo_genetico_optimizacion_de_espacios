@@ -1,0 +1,29 @@
+function distancia(u)
+
+[r c] = size(u);
+
+v3= [];
+v4=[];
+v5=[];
+
+for i = 1:r
+    for j = 1:c
+        if u(i,j) == 3
+            v3 = [i j];
+        end
+        if u(i,j) == 4
+            v4 = [i j];
+        end
+        if u(i,j) == 5
+            v5 = [i j];
+        end
+    end
+end
+
+v3
+v4
+v5
+
+
+
+     dist1 = sqrt((c-c1(i))^2 + (c2(i+1)-c2(i))^2);
